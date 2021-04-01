@@ -66,17 +66,17 @@ Le nom `less` est un jeu de mot avec `more`, un programme similaire. En fait,
 de texte en appuyant sur entrée. `less` permet de revenir en arrière et donc de
 faire comme `more` à l'envers.
 
-(base) MacBook-Air-de-Theo:12345 Theo$ cd /usr
-(base) MacBook-Air-de-Theo:usr Theo$ ls
-		X11		bin		libexec		sbin		standalone
-		X11R6		lib		local		share
-(base) MacBook-Air-de-Theo:usr Theo$ cd /Users/Theo/Desktop
-(base) MacBook-Air-de-Theo:Desktop Theo$ cd tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 3 9
-93468
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 93468
-(base) MacBook-Air-de-Theo:93468 Theo$ less indice
+	(base) MacBook-Air-de-Theo:12345 Theo$ cd /usr
+	(base) MacBook-Air-de-Theo:usr Theo$ ls
+			X11		bin		libexec		sbin		standalone
+			X11R6		lib		local		share
+	(base) MacBook-Air-de-Theo:usr Theo$ cd /Users/Theo/Desktop
+	(base) MacBook-Air-de-Theo:Desktop Theo$ cd tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 3 9
+		93468
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 93468
+	(base) MacBook-Air-de-Theo:93468 Theo$ less indice
 
 ### Indice 3 : Humains vs. Machines ###
 
@@ -132,15 +132,15 @@ loin. Rappel : pour trouver l'indice suivant, tapez
 
     ./indice_suivant.py [numéro indice suivant] [indication]
 
-(base) MacBook-Air-de-Theo:48573 Theo$ hostname
-	MacBook-Air-de-Theo-3.home
-(base) MacBook-Air-de-Theo:48573 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 4    MacBook-Air-de-Theo-3
-	73157
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 73157
-(base) MacBook-Air-de-Theo:73157 Theo$ less indice
+	(base) MacBook-Air-de-Theo:48573 Theo$ hostname
+		MacBook-Air-de-Theo-3.home
+	(base) MacBook-Air-de-Theo:48573 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 4    MacBook-Air-de-Theo-3
+		73157
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 73157
+	(base) MacBook-Air-de-Theo:73157 Theo$ less indice
 
 
 ——————————
@@ -209,13 +209,13 @@ Lire la page de `mv` et trouver une option qui empêche l'écrasement. Cette
 option est votre prochaine indication.
 
 
-(base) MacBook-Air-de-Theo:51462 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 5 -n
-	90874
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 90874
-(base) MacBook-Air-de-Theo:90874 Theo$ less indice
+	(base) MacBook-Air-de-Theo:51462 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 5 -n
+		90874
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 90874
+	(base) MacBook-Air-de-Theo:90874 Theo$ less indice
 
 —————————
 ### Indice 5 : y a-t-il de l'écho ici ? ###
@@ -259,15 +259,15 @@ La variable `PATH` dit à l'ordinateur où sont les programmes. Chaque chemin qu
 peut contenir un programme est placé entre deux points. L'indication vers le
 prochain indice est le premier chemin listé dans votre `PATH`.
 
-(base) MacBook-Air-de-Theo:52346 Theo$ echo $PATH
-/Users/Theo/Desktop/miniconda3/bin:/Users/Theo/Desktop/miniconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-(base) MacBook-Air-de-Theo:09909 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 6 /Users/Theo/Desktop/miniconda3/bin
-	29026
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 29026
-(base) MacBook-Air-de-Theo:29026 Theo$ less indice
+	(base) MacBook-Air-de-Theo:52346 Theo$ echo $PATH
+			/Users/Theo/Desktop/miniconda3/bin:/Users/Theo/Desktop/miniconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+	(base) MacBook-Air-de-Theo:09909 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 6 /Users/Theo/Desktop/miniconda3/bin
+		29026
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 29026
+	(base) MacBook-Air-de-Theo:29026 Theo$ less indice
 
 
 ———————————————-
@@ -309,14 +309,14 @@ chacune de ces lignes pour le fichier `baleine.jpg`.
 
 
 
-(base) MacBook-Air-de-Theo:37200 Theo$ tail -n5 baleine.jpg
-(base) MacBook-Air-de-Theo:64872 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 7 allume éteint réunies nom
-	37200
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 37200
-(base) MacBook-Air-de-Theo:37200 Theo$ less indice
+	(base) MacBook-Air-de-Theo:37200 Theo$ tail -n5 baleine.jpg
+	(base) MacBook-Air-de-Theo:64872 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 7 allume éteint réunies nom
+		37200
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 37200
+	(base) MacBook-Air-de-Theo:37200 Theo$ less indice
 
 ———————————————
 ### Indice 7 : fais-moi un sandwich ###
@@ -364,17 +364,17 @@ vos initiales comme indication.
 
 Si vous n'avez pas les droits pour `sudo`, votre indication est `impossible`.
 
-(base) MacBook-Air-de-Theo:08702 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ echo "Je veux utiliser sudo. TE">toutpuissant.txt
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ sudo mv toutpuissant.txt /usr/local
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 8 TE
-	40218
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 40218
-(base) MacBook-Air-de-Theo:40218 Theo$ less indice
+	(base) MacBook-Air-de-Theo:08702 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ echo "Je veux utiliser sudo. TE">toutpuissant.txt
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ sudo mv toutpuissant.txt /usr/local
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 8 TE
+		40218
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 40218
+	(base) MacBook-Air-de-Theo:40218 Theo$ less indice
 
 
 —————————————————
@@ -391,18 +391,6 @@ Cela affichera le nombre de lignes, mots, caractères dans cet ordre. Si une
 seule de ces informations vous suffit, vous pouvez utiliser `-l`, `-w` ou `-c`.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ——————————————
 #### Trouver l'indice 9 ####
 
@@ -415,18 +403,18 @@ Maintenant, vous avez ce fichier qui sert de dictionnaire pour la correction
 orthographique. L'indication est le nombre de mots dans ce dictionnaire
 `/usr/share/dict/words`.
 
-(base) MacBook-Air-de-Theo:40218 Theo$ cd /usr/share/dict
-(base) MacBook-Air-de-Theo:dict Theo$ ls
-README		connectives	propernames	web2		web2a		words
-(base) MacBook-Air-de-Theo:dict Theo$ wc words
-  235886  235886 2493109 words
-(base) MacBook-Air-de-Theo:30601 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 9 235886
-	87541
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
-(base) MacBook-Air-de-Theo:indices Theo$ cd 87541
-(base) MacBook-Air-de-Theo:87541 Theo$ less indice
+	(base) MacBook-Air-de-Theo:40218 Theo$ cd /usr/share/dict
+	(base) MacBook-Air-de-Theo:dict Theo$ ls
+	README		connectives	propernames	web2		web2a		words
+	(base) MacBook-Air-de-Theo:dict Theo$ wc words
+	  235886  235886 2493109 words
+	(base) MacBook-Air-de-Theo:30601 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 9 235886
+		87541
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 87541
+	(base) MacBook-Air-de-Theo:87541 Theo$ less indice
 
 
 ———————————————
@@ -459,16 +447,16 @@ L'indication suivante est le mot qui apparaît avant "koala" dans
 `/usr/share/dict/words`. Il existe une option spécifique de `grep` qui rend
 cette recherche facile.
 
-(base) MacBook-Air-de-Theo:dict Theo$ grep -i -n -1 "koala" words
-102632-koae
-102633:koala
-102634-koali
-(base) MacBook-Air-de-Theo:42204 Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 10 koae
-	52314
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/52314
-(base) MacBook-Air-de-Theo:52314 Theo$ less indice
+	(base) MacBook-Air-de-Theo:dict Theo$ grep -i -n -1 "koala" words
+	102632-koae
+	102633:koala
+	102634-koali
+	(base) MacBook-Air-de-Theo:42204 Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 10 koae
+		52314
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/52314
+	(base) MacBook-Air-de-Theo:52314 Theo$ less indice
 
 ———————————————
 
@@ -524,12 +512,12 @@ Ces options forment votre indication. Par exemple, si votre commande était
 
     ./indice_suivant.py 11 -a -b -c
 
-(base) MacBook-Air-de-Theo:dict Theo$ cd
-(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 11 -k5r
-	95915
-(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/95915
-(base) MacBook-Air-de-Theo:95915 Theo$ less indice
+	(base) MacBook-Air-de-Theo:dict Theo$ cd
+	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ ./indice_suivant.py 11 -k5r
+		95915
+	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/95915
+	(base) MacBook-Air-de-Theo:95915 Theo$ less indice
 
 
 ———————————————————
@@ -542,16 +530,16 @@ Ces options forment votre indication. Par exemple, si votre commande était
 
 En utilisant tout ce que vous avez appris pour l'instant et le fait que les vrais indices sont différents des faux indices, trouver l'indice final !
 
-(base) MacBook-Air-de-Theo:indices Theo$ find . -type f -size -1452c
-./29026/indice
-./40218/indice
-./37200/indice
-./87541/indice
-./90874/indice
-./95915/indice
-./92682/indice  => INDICE RETENU
-(base) MacBook-Air-de-Theo:indices Theo$ cd 92682
-(base) MacBook-Air-de-Theo:92682 Theo$ less indice
+	(base) MacBook-Air-de-Theo:indices Theo$ find . -type f -size -1452c
+	./29026/indice
+	./40218/indice
+	./37200/indice
+	./87541/indice
+	./90874/indice
+	./95915/indice
+	./92682/indice  => INDICE RETENU
+	(base) MacBook-Air-de-Theo:indices Theo$ cd 92682
+	(base) MacBook-Air-de-Theo:92682 Theo$ less indice
 
 
 
