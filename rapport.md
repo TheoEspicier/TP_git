@@ -32,7 +32,7 @@ est par un chemin absolu. Essayez ceci :
 Observez son contenu. Ce répertoire est appelé la racine. Vous pouvez explorer
 le système de fichiers entier à partir d'ici, en utilisant seulement `ls` et
 `cd`.
-—————————————————-
+
 
 #### Trouver l'indice 3 ####
 
@@ -142,9 +142,6 @@ loin. Rappel : pour trouver l'indice suivant, tapez
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 73157
 	(base) MacBook-Air-de-Theo:73157 Theo$ less indice
 
-
-——————————
-
 ### Indice 4 : les grands mouvements ###
 
 #### Organisons ####
@@ -201,7 +198,6 @@ déplacer (renommer) avec `mv` :
 
 Exécutons alors `ls` pour voir les résultats du déplacement. Prudence avec
 `mv` : on peut écraser un répertoire / fichier qui existe déjà ! 
-—————————————————
 
 #### Trouver l'indice 5 ####
 
@@ -217,7 +213,6 @@ option est votre prochaine indication.
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 90874
 	(base) MacBook-Air-de-Theo:90874 Theo$ less indice
 
-—————————
 ### Indice 5 : y a-t-il de l'écho ici ? ###
 
 #### `echo` ####
@@ -250,9 +245,6 @@ d'environnement :
 
 Vous devriez comprendre le sens de la variable `HOME` à cette étape. 
 
-
-————————————————
-
 #### Trouver l'indice 6 ####
 
 La variable `PATH` dit à l'ordinateur où sont les programmes. Chaque chemin qui
@@ -269,8 +261,6 @@ prochain indice est le premier chemin listé dans votre `PATH`.
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 29026
 	(base) MacBook-Air-de-Theo:29026 Theo$ less indice
 
-
-———————————————-
 ### Indice 6 : de la tête à la queue ###
 
 #### `head` ####
@@ -306,9 +296,6 @@ normaux. Mais un message secret a été caché dans leur cinq dernières lignes.
 L'indication vers l'indice 7 est formé à partir du dernier mot de
 chacune de ces lignes pour le fichier `baleine.jpg`.
 
-
-
-
 	(base) MacBook-Air-de-Theo:37200 Theo$ tail -n5 baleine.jpg
 	(base) MacBook-Air-de-Theo:64872 Theo$ cd
 	(base) MacBook-Air-de-Theo:~ Theo$ cd Desktop/tresor_shell
@@ -318,7 +305,6 @@ chacune de ces lignes pour le fichier `baleine.jpg`.
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 37200
 	(base) MacBook-Air-de-Theo:37200 Theo$ less indice
 
-———————————————
 ### Indice 7 : fais-moi un sandwich ###
 
 https://xkcd.com/149/
@@ -347,8 +333,6 @@ signifie que vous n'avez pas les permissions d'installer un logiciel. À la plac
     
 Maintenant, un dictionnaire devrait être installé.
 
-—————————————————
-
 #### Trouver l'indice 8 ####
 
 Créez le fichier `toutpuissant.txt` qui contient le texte
@@ -376,8 +360,6 @@ Si vous n'avez pas les droits pour `sudo`, votre indication est `impossible`.
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 40218
 	(base) MacBook-Air-de-Theo:40218 Theo$ less indice
 
-
-—————————————————
 ### Indice 8 : compter les mots ###
 
 #### `wc` ####
@@ -390,8 +372,6 @@ et/ou caractères dans un fichier
 Cela affichera le nombre de lignes, mots, caractères dans cet ordre. Si une
 seule de ces informations vous suffit, vous pouvez utiliser `-l`, `-w` ou `-c`.
 
-
-——————————————
 #### Trouver l'indice 9 ####
 
 Vérifiez que vous avez le fichier `/usr/share/dict/words` installé. Sinon,
@@ -416,8 +396,6 @@ orthographique. L'indication est le nombre de mots dans ce dictionnaire
 	(base) MacBook-Air-de-Theo:indices Theo$ cd 87541
 	(base) MacBook-Air-de-Theo:87541 Theo$ less indice
 
-
-———————————————
 ### Indice 9 : recherche ###
 
 #### `grep` ####
@@ -439,7 +417,6 @@ compliquées. Par exemple,
 trouvera toutes les lignes qui contiennent les lettres m et n séparées
 uniquement d'un seul caractère. Consultez la page de manuel pour découvrir de
 nombreuses fonctionnalités intéressantes de `grep`.
-——————————————-
 
 #### Trouver l'indice 10 ####
 
@@ -457,8 +434,6 @@ cette recherche facile.
 		52314
 	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/52314
 	(base) MacBook-Air-de-Theo:52314 Theo$ less indice
-
-———————————————
 
 ### Indice 10 : Mario ###
 
@@ -496,11 +471,7 @@ Maintenant, on peut `sort random_words` pour obtenir l'ordre alphabétique de
 nouveau, ou `sort -r random_words` pour l'ordre inverse de l'ordre
 alphabétique. 
 
-
-———————————————————
-
 #### Trouver l'indice 11 ####
-
 
 Utiliser la commande `ls -la /bin` pour obtenir une grande liste de fichiers.
 La 5e colonne dans cette liste est la taille des fichiers en octets. Trouver
@@ -519,12 +490,8 @@ Ces options forment votre indication. Par exemple, si votre commande était
 	(base) MacBook-Air-de-Theo:tresor_shell Theo$ cd indices/95915
 	(base) MacBook-Air-de-Theo:95915 Theo$ less indice
 
-
-———————————————————
-
 ### Indice 11 : Le défi final ###
 
-———————————————————
 
 #### Trouver l'indice final 12 ####
 
